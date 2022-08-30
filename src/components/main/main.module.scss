@@ -1,0 +1,58 @@
+.modern_studio_section {
+  padding: 0 135px;
+  background-color: #28293E;
+  position: relative;
+}
+.about_section {
+  padding: 73px 135px;
+  background-color: #FDF0E9;
+  position: relative;
+}
+.portfolio_section {
+  padding: 0 135px;
+  background-color: #28293E;
+  width: 100%;
+  box-sizing: border-box;
+}
+.testimonials_section {
+  padding: 124px 135px 0 135px;
+  background-color: #FDF0E9;
+}
+.footer_section {
+  padding: 130px 135px 0 135px;
+  background-color: #FDF0E9;
+}
+@media (max-width: 1360px) {
+  .modern_studio_section {
+    padding: 0 75px;
+  }
+  .about_section {
+    padding: 0 75px;
+  }
+  .portfolio_section {
+    padding: 124px 75px;
+  }
+  .testimonials_section {
+    padding: 124px 75px;
+  }
+  .footer_section {
+    padding: 130px 75px;
+  }
+}
+@media (max-width: 1250px) {
+  .modern_studio_section {
+    padding: 0 23px;
+  }
+  .about_section {
+    padding: 0 23px;
+  }
+  .portfolio_section {
+    padding: 124px 23px;
+  }
+  .testimonials_section {
+    padding: 124px 23px;
+  }
+  .footer_section {
+    padding: 130px 23px;
+  }
+}

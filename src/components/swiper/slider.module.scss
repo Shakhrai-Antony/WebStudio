@@ -1,0 +1,28 @@
+.carouselSection {
+  margin-top: 40px;
+}
+.carouselSection_content {
+  text-align: start;
+  div {
+    width: 270px;
+    height: 272px;
+    border: 1px solid #2F3048;
+
+    img {
+      padding: 24px 37px 1px 37px;
+      width: 196px;
+      height: 247px;
+    }
+  }
+  .worker_name{
+    color: #ffffff;
+    margin: 26px 0 0 0;
+    font-size: 24px;
+  }
+  .worker_position {
+    font-size: 16px;
+    margin: 3px 0 0 0;
+    color: #ffffff;
+    opacity: 64%;
+  }
+}

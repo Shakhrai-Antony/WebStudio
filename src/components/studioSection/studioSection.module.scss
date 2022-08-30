@@ -1,0 +1,158 @@
+.studio_section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  .modern_studio_description {
+    text-align: start;
+
+    .modern_studio {
+      padding-top: 188px;
+      margin-top: 0;
+      color: #ef6d58;
+      letter-spacing: 1px;
+    }
+
+    .modern_studio_h1 {
+      color: #ffffff;
+      font-size: 40px;
+      margin-top: 24px;
+      position: relative;
+      .h1_desktop {
+        margin: 0;
+        background-image: url("../../images/Star.png");
+        background-repeat: no-repeat;
+        background-position: 65% -5%;
+        background-size: 148px;
+      }
+      .h1_mobile {
+        display: none;
+      }
+    }
+
+    .modern_agency_provides {
+      margin-top: 24px;
+
+      .p_desktop {
+        margin: 0;
+        color: lightgray;
+      }
+      .p_mobile {
+        display: none;
+      }
+    }
+
+    .modern_studio_buttons {
+      display: flex;
+      margin-top: 34px;
+      button {
+        margin-right: 46px;
+        background-color: #ef6d58;
+        border-color: transparent;
+        border-radius: 10px;
+        font-weight: bold;
+        padding: 18px 22px;
+        color: #ffffff;
+        cursor: pointer;
+      }
+      a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+    }
+
+    .quote {
+      margin-top: 108px;
+      display: flex;
+      align-items: center;
+      text-align: start;
+      color: #ffffff;
+      padding-bottom: 64px;
+
+      p {
+        margin: 0;
+      }
+
+      img {
+        width: 48px;
+        height: 48px;
+        margin-right: 22px;
+      }
+    }
+  }
+  .studio_section_images {
+    width: 570px;
+    height: 601px;
+    background-image: url("../../images/pic_studio_section.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 118px;
+    margin-left: 87px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .studio_section {
+    .modern_studio_description{
+    .modern_studio {
+      padding-top: 50px;
+    }
+      .modern_agency_provides {
+        .p_desktop {
+          display: none;
+        }
+        .p_mobile {
+          display: block;
+          margin: 0;
+          color: lightgray;
+        }
+      }
+      .modern_studio_h1 {
+        .h1_desktop {
+          display: none;
+        }
+        .h1_mobile {
+          display: block;
+          margin: 0;
+        }
+      }
+    }
+    .studio_section_images {
+      background-image: url("../../images/studio_section_images.png");
+      width: 329px;
+      height: 334px;
+    }
+  }
+}
+@media (max-width: 890px) {
+  .studio_section {
+    flex-direction: column-reverse;
+    .modern_studio_description{
+    }
+    .studio_section_images {
+      margin-left: 0;
+    }
+  }
+}
+@media (max-width: 445px) {
+  .studio_section {
+    .modern_studio_description {
+      .modern_studio_buttons {
+        button {
+          padding: 10px 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 390px) {
+.studio_section {
+  .modern_studio_description {
+    .modern_studio_buttons {
+      button {
+        padding: 5px 5px;
+      }
+    }
+  }
+}
+}
