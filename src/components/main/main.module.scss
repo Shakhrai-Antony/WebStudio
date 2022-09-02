@@ -18,10 +18,7 @@
   padding: 124px 135px 0 135px;
   background-color: #FDF0E9;
 }
-.footer_section {
-  padding: 130px 135px 0 135px;
-  background-color: #FDF0E9;
-}
+
 @media (max-width: 1360px) {
   .modern_studio_section {
     padding: 0 75px;
@@ -35,10 +32,8 @@
   .testimonials_section {
     padding: 124px 75px;
   }
-  .footer_section {
-    padding: 130px 75px;
-  }
 }
+
 @media (max-width: 1250px) {
   .modern_studio_section {
     padding: 0 23px;
@@ -51,8 +46,5 @@
   }
   .testimonials_section {
     padding: 124px 23px;
-  }
-  .footer_section {
-    padding: 130px 23px;
   }
 }

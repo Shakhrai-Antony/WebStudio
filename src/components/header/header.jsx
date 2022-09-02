@@ -2,7 +2,7 @@ import s from './header.module.scss'
 import polygon from '../../images/Polygon.png'
 import polygon1 from '../../images/Polygon (1).png'
 import {NavLink} from "react-router-dom";
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import {useLockBodyScroll, useToggle, useWindowSize} from "react-use";
 
 export const Header = () => {
@@ -26,7 +26,9 @@ export const Header = () => {
                 <div className={s.logo_section}>
                     <img className={s.logo} src={polygon} alt="logo"/>
                     <img className={s.logo1} src={polygon1} alt=""/>
-                    <p className={s.logo_section_agency}>Agency</p>
+                    <NavLink to={'/'}>
+                        <p className={s.logo_section_agency}>Agency</p>
+                    </NavLink>
                 </div>
                    <ul className={burgerMenuStatus ? s.header_navigation_ul_burger : s.header_navigation_ul }>
                        {navigation.map((item, index) => {

@@ -19,7 +19,7 @@ import email_icon from '../../images/email_icon.png'
 import address_icon from '../../images/address_icon.png'
 import {NavLink} from "react-router-dom";
 import {useState} from "react";
-import {GoogleMap} from "../googleMap/googleMap";
+import GoogleMap from "../googleMap/googleMap";
 
 const feedbacks = [
     {

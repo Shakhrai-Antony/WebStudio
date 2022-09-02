@@ -1,0 +1,114 @@
+.contact_page_section {
+  padding: 73px 135px;
+  background-color: #FDF0E9;
+  position: relative;
+
+  h1 {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -2px;
+    color: #391400;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #391400;
+    opacity: 64%;
+  }
+
+  .contacts_section {
+    margin-top: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 100px;
+    .contacts_item:nth-of-type(2) {
+      div {
+        .icon {
+          position: absolute;
+          top: 56px;
+          left: 68px;
+        }
+      }
+    }
+    .contacts_item:first-of-type {
+      border-radius: 6px 0 0 6px;
+    }
+    .contacts_item:last-of-type {
+      border-radius: 0 6px 6px 0;
+    }
+    .contacts_item {
+      width: 100%;
+      border: 1px solid #f3d1bf;
+      position: relative;
+      height: 192px;
+      div {
+        display: flex;
+        justify-content: start;
+        margin-left: 48px;
+        margin-top: 32px;
+        .background {
+          width: 64px;
+          height: 64px;
+        }
+        .icon {
+          position: absolute;
+          top: 52px;
+          left: 68px;
+        }
+        span {
+          display: block;
+          padding: 20px 0 0 24px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          letter-spacing: 3px;
+          color: #EF6D58;
+        }
+      }
+      p {
+        text-align: start;
+        padding: 26px 0 0 48px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #391400;
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 1360px) {
+  .contact_page_section {
+    padding: 73px 75px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .contact_page_section {
+    padding: 73px 23px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact_page_section {
+    .contacts_section {
+      flex-direction: column;
+
+      .contacts_item:first-of-type{
+        border-radius: 6px 6px 0 0;
+      }
+      .contacts_item:last-of-type {
+        border-radius: 0 0 6px 6px;
+      }
+      .contacts_item {
+        p {
+          padding-left: 28px;
+        }
+      }
+    }
+  }
+}

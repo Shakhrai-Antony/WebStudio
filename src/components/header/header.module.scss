@@ -12,7 +12,9 @@
       display: flex;
       align-items: center;
       position: relative;
-
+      a {
+        text-decoration: none;
+      }
       .logo {
         width: 45px;
         height: 43px;

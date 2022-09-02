@@ -11,7 +11,7 @@ export const Marker = () => {
     )
 }
 
-export const GoogleMap = () => {
+const GoogleMap = () => {
     return (
         <section className={s.google_map}>
             <GoogleMapReact
@@ -30,3 +30,4 @@ export const GoogleMap = () => {
         </section>
     )
 }
+export default React.memo(GoogleMap)

@@ -21,11 +21,8 @@ const Main = () => {
             <section className={s.testimonials_section}>
                 <TestimonialsSection/>
             </section>
-            <section className={s.footer_section}>
-                <Footer/>
-            </section>
         </main>
     );
 };
 
-export default Main;
+export default React.memo(Main);
